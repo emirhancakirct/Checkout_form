@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    text-align: center;
+    margin:15px 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+input{
+    padding: 5px 200px 5px 5px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    border: 1px solid #767676;
+    display: block;
+}
+
+select{
+    padding: 5px 5px 5px 5px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contact-information,
+.shipping-adress
+{
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.country{
+    margin-left: 5px;
+}
+.postal-code{
+    margin-right: 5px;
+}
+
+#information{
+    margin-right: 5px;
+    display: inline-block;
+}
+#country{
+    border-radius: 7px;
+    border: 3px ridge #a81b1b;
+}
+.section-2{
+    background-color: #eee;
+    border-radius: 10px;
+    width: 380px;
+    height: 400px;
+    margin-top: 30px;
+}
+img{
+    margin: 20px;
+    width: 96px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+
+
+.right-top,
+.right-bottom{
+    display: flex;
+}
+.bottom-bottom{
+    border-top: 1px solid grey;
+    margin: 20px;
+}
+.bottom-bottom-text{
+    display: block;
+    text-align: right;
+    margin-top: -18px;
+}
+.vintage-bag-text>input{
+    margin-top: 25px;
+    padding-right: 10px;
+}
+
+.levi-shoes-text>input{
+    margin-top: 25px;
+    padding-right: 10px;
+}
+.price{
+    color: #f2994a;
+    font-size: x-large;
+}
+.footer{
+    text-align: center;
+}
+
+#bag{
+    outline: 5px groove orange;
+    outline-offset: 5px;
+}
+
+#shoes{
+    outline: 5px groove green;
+    outline-offset: 5px;
+}
+button{
+    padding: 15px 15px;
+    color: white;
+    background-color: #530041;
+    border-radius: 7px;
+    outline: 5px groove black;
+    outline-offset: 0;
+    text-align: center;
+
+}
+button:hover{
+    color: #00801c;
+    background-color: black;
+    cursor: pointer;
+}
